@@ -45,7 +45,7 @@ public class Coffee  {
 
 
     public static class CoffeeBuilder{
-        private ECoffeeCupSize withSize = ECoffeeCupSize.MEDIUM;
+        private ECoffeeCupSize withSize = ECoffeeCupSize.LARGE;
         private ECoffeeDrinkLevel withDrinkLevel = ECoffeeDrinkLevel.LIGHT;
         private final ECoffeeDrinkType withDrinkType;
         private ECoffeeMachineType withMachineType = ECoffeeMachineType.AUTOMATIC_MACHINE;
